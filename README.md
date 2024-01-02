@@ -37,21 +37,31 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 
 ### Interview Practice Questions
 
-1. What are three (3) syntax difference between HTML and JSX?
+1. What are three (3) syntax difference between HTML and JSX? 
+
+In HTML, attrebutes are lowercase and the values are in ' '. In JSX the names use camelCasing and curly braces { }.
+
+In HTML we use class to define an element, in JSX we use className to avoid confusion with class.
+
+In HTML style is a string with a value but in JSX, style is an object that uses camelCasing
+
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
 
-3. What is the difference between state values and props in React?
+Yarn is a program manager for running a server off our local machine and in turn running our programs that we have coded and can share it easily and securely. When you start yarn from the terminal it looks at the package.json file and updates it along with yarn.lock which makes sure your code is consistent across platforms. Lastly node_modules directory is updated with any code from the libraries to run uniformly.
+
+3. What is the difference between state values and props in React? Props can only pass read only info one direction in a component while State is used in a component to manage its data instead of sending it to a child component, its also mutable and called using the useState hook. also the component owns its state, for props the parent component owns it.
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+a div tag is for elements that will be starting on a new line each time and is more of a container for the data where span is for styling text element that changes color or font to a part of the text.
 
 ### Looking Ahead: Terms for Next Unit
 
-1. Object-oriented programming:
+1. Object-oriented programming: uses objects as the building blocks of a program, manipulating that instead of logic needed to manipulate them
 
-2. Ruby:
+2. Ruby: OOP made by Matz in the 90's with easy syntax and is overall developer friendly
 
-3. Ruby Hashes:
+3. Ruby Hashes: key-value pairs that can be called using a key name within brackets.
 
 ---
 
