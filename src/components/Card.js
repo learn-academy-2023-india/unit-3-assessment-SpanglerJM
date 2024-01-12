@@ -1,15 +1,17 @@
-import React from "react"
+import React from 'react'
 
-const Card = () => {
+const Card = ({hand}) => {
   return (
     <div className="handStyles">
-      {hand.map((card, index) => {
+      {hand.map((Card, index) => {
         return (
-          <div className="cardStyles" key={index}>
-            {card}
+          <div className="CardStyles" key={index}>
+            {Card}
           </div>
         )
       })}
     </div>
   )
 }
+
+export default Card
